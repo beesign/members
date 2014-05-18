@@ -1,0 +1,127 @@
+/* -------  module members  -------  */
+.mod_members a img {border:0;}
+
+/*----------- settings---------------*/
+/* show (display:block;) or hide (display:none;) sections on Settings Page: */
+.mod_members #settings1 {display:block;}
+.mod_members #settings2 {display:block;}
+.mod_members #settings3 {display:block;}
+.mod_members .notready-tr {display:block;} /*einige Felder in den Options, die derzeit nicht ver�ndert werden sollten*/
+.mod_members .options-names td {font-size: 10px; color: #999999;}
+
+
+
+.mod_members .membertable img {border:0; border-collapse:collapse; }
+
+/* ----------  Modify Member ----------  */
+.mod_members .thismember {
+	background-color: #E0ECBE;
+}
+.mod_members .thisgroup {
+	background-color: #F1F8DD;
+}
+.mod_members .otherpage {
+	background-color: #FFCCFF;
+}
+
+.mod_members .lefttd { font-size: 10px; }
+.mod_members .lefttd div { margin-bottom:12px; }
+
+/* ----------  Modify  ----------  */
+.mod_members .topline {
+	border-top: 2px dotted  #CCCCCC;
+}
+
+.mod_members {margin:20px 0 10px 0;}
+.mod_members .mainmenue td {white-space:nowrap; padding-right:10px;}
+
+.mod_members .ismember {	font-weight: bold; }
+.mod_members .isalias {	font-style: italic; }
+
+.mod_members .score_td {
+	text-align: right; padding-right:20px;
+}
+.mod_members .sort_td {
+	text-align: left; padding-left:20px;
+}
+
+.mod_members .grouptr td {
+	font-size: 14px;
+	background-color: #E7E7E7;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: dotted;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	font-weight: bold;
+}
+
+.mod_members .membertd1, .mod_members .grouptd1 {
+	text-align: right;
+	padding-right: 10px;
+}
+.mod_members .mrow td {border-bottom: 1px dotted #999999;}
+
+.mod_members  .hilite td {
+	background-color: #E0ECBE ! important;
+	color: #999999;
+}
+
+.mod_members .groupinfo {padding-top: 10px; font-size: 10px;}
+
+.mod_members .warning {margin:10px 0; padding:5px; background-color: #FFFF66! important;
+	color: #CC0000;}
+	
+.mod_members .admininfo {padding-top: 10px; font-size: 10px;}
+
+/*-----------------------------------------------------------*/
+
+#dragableTable ul {background-color: #fff; padding:0 ! important}
+
+#dragableTable ul li, #firstgroup  {margin:0 ! important; padding:0 ! important;}
+#dragableTable li, #firstgroup {
+	list-style: none;
+	margin-top: 3px;
+	width: 100%;
+	padding: 2px;
+	color:#fff;
+	border-bottom: 1px dotted #999999;
+	background-color: #E0ECBE;
+}
+
+#dragableTable li .sortgroup td, #firstgroup {background-color: #eee; font-size: 14px;}
+#dragableTable li.sortgroup {margin-top:10px;}
+#dragableTable hr {line-height:4px;}
+
+#dragableResult {
+	width: 50%;
+	padding:10px;
+	background-color:#336600;
+	color:#FFFFFF;
+}*/
+
+/* -------  module members NEW classes for drag n drop -------  */
+.mod_members_wrapper {width: 100%; display: block; border: 1px #333 solid;}
+.mod_members_links a img {border:0;}
+
+.mod_members_group {width: 100%; height: 30px; display: block; border: 1px #00ccccc solid;	font-size: 12px; background-color: #E7E7E7; }
+
+
+/* Picture Chooser */
+
+div#picturechooser {width:80%;  position:absolute; top:10%; left:10%;  display:none;}
+
+table.choosertable .r1 td {height:17px;}
+table.choosertable .r3 td {height:17px;}
+table.choosertable .c1 {width:13px;}
+table.choosertable .c3 {width:13px;}
+table.choosertable .r2 .c1 {width:13px; background: url(img/shadow/shadow_w.png) repeat-y; }
+table.choosertable .r2 .c3 {width:13px; background: url(img/shadow/shadow_e.png) repeat-y; }
+table.choosertable .r1 .c2 {height:17px; background: url(img/shadow/shadow_n.png) repeat-x; text-align:right;}
+table.choosertable .r3 .c2 {height:17px; background: url(img/shadow/shadow_s.png) repeat-x; }
+
+table.choosertable #picturechooserinner {height:500px; min-width:400px; padding:20px 10px 0 20px; background-color:#ddd; overflow:scroll;}
+
+#picturechooserinner .memberpic_preview {float:left; margin:0 10px 10px 0; width:100px; height:100px; overflow:hidden; background-color:#eee;}
+#picturechooserinner .memberpic_preview img {max-width:100px; max-height:120px;border:0; margin:auto;} 

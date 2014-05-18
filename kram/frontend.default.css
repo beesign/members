@@ -1,0 +1,34 @@
+/* -------  module members  -------  */
+/* ----------  Group  ----------  */
+.members-head {text-align: left;}
+.members-head h2 {font-size: 1.2em; }
+.members-head p {font-size: 1.0em; margin:0 0 20px 0}
+
+/* ----------  Member ----------  */
+.members-member {
+	margin-bottom: 20px;	
+	border-bottom: 1px dotted #999999;
+}
+.members-member td {
+	font-size: 1.0em;
+	text-align: left;
+}
+.members-member img {margin: 0; }
+
+.member-text {padding-left:8px;}
+.member-name {font-size: 1.1em; margin:0;}
+.member-score {
+	font-size: 1.3em;
+	margin:4px 0;
+	text-align: center;
+}
+.member-short1 {font-size: 1.0em; margin:4px 0;}
+.member-long1 {font-size: 0.9em; margin:2px 0 6px 0;}
+
+.member-short2 {font-size: 0.9em; margin:6px 0 2px 0;}
+.member-long2 {font-size: 0.8em; margin:2px 0;}
+
+.member-link {font-size: 1.0em; margin:4px 0;}
+.member-page {font-size: 1.0em; margin:4px 0;}
+
+.members-showsortlink0 {display:none}
